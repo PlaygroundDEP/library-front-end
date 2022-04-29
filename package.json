@@ -1,8 +1,7 @@
 {
   "name": "library-front-end",
   "version": "0.1.0",
-  "main": "index.js",
-  "source": "src/index.html",
+  "source": ["src/index.html"],
   "scripts": {
     "watch": "npm watch",
     "start": "parcel",
@@ -13,8 +12,8 @@
     "url": "git+https://github.com/PlaygroundDEP/library-front-end.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Thakshila Nuwangi <thakshilanuwangi123@gmail.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/PlaygroundDEP/library-front-end/issues"
   },
