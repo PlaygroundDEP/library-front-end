@@ -1,1 +1,1 @@
-{"mappings":"","sources":["src/ts/main.ts"],"sourcesContent":[null],"names":[],"version":3,"file":"index.cd6d870a.js.map","sourceRoot":"/__parcel_source_root/"}
+{"mappings":"AAAA,OAAO,CAAC,GAAG,CAAC,SAAS,CAAC,CAAC","sources":["src/ts/main.ts"],"sourcesContent":["console.log(\"Working\");"],"names":[],"version":3,"file":"index.cd6d870a.js.map","sourceRoot":"/__parcel_source_root/"}
