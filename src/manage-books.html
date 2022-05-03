@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AdminLTE 3 | Dashboard 2</title>
+  <title>Library Management System | Manage Books</title>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -26,6 +26,7 @@
   <!-- AdminLTE App -->
   <script type="module" defer src="/node_modules/admin-lte/dist/js/adminlte.js"></script>
   <script defer src="ts/main.ts"></script>
+  <link rel="stylesheet" href="css/page/manage-books.css">
 
 </head>
 <body class="hold-transition dark-mode sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
@@ -139,12 +140,12 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0">Dashboard</h1>
+            <h1 class="m-0">Manage Books</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-              <li class="breadcrumb-item active">Dashboard</li>
+              <li class="breadcrumb-item active">Manage Books</li>
             </ol>
           </div><!-- /.col -->
         </div><!-- /.row -->
@@ -156,10 +157,134 @@
     <section class="content">
       <div class="container-fluid">
         <div class="row">
+<<<<<<< HEAD
         </div>
         <!-- /.row -->
         <!-- Main row -->
         <div class="row">
+=======
+          <div class="col-md-5 mr-5 ml-5 mt-2">
+
+
+            <div class="card card-primary">
+              <div class="card-header">
+                <h3 class="card-title">Book Details</h3>
+                <button class="btn btn-success btn-sm float-right">NEW BOOK +</button>
+              </div>
+
+
+              <form>
+                <div class="card-body">
+                  <div class="form-group">
+                    <label for="txt-isbn">ISBN</label>
+                    <input type="text" class="form-control" id="txt-isbn" placeholder="Enter ISBN">
+                  </div>
+                  <div class="form-group">
+                    <label for="txt-name">Name</label>
+                    <input type="text" class="form-control" id="txt-name" placeholder="Enter Book's Name">
+                  </div>
+                  <div class="form-group">
+                    <label for="txt-author">Author</label>
+                    <input type="text" class="form-control" id="txt-author" placeholder="Enter Author's Name">
+                  </div>
+                  <div class="form-group">
+                    <label class="col-form-label" for="txt-preview">Preview</label>
+                    <div id="thumbnail-wrapper">
+                      <div id="thumbnail"></div>
+                      <div class="d-flex flex-column">
+                        <button id="btn-browse" class="btn btn-success btn-sm"><i class="fas fa-folder-open"></i> BROWSE</button>
+                        <button id="btn-remove" class="btn btn-danger btn-sm"><i class="fas fa-folder-open"></i> REMOVE</button>
+                      </div>
+                    </div>
+                    <input type="file" id="txt-preview">
+                  </div>
+                </div>
+
+                <div class="card-footer">
+                  <button id="btn-save" type="submit" class="btn btn-primary btn-sm">
+                    SAVE
+                  </button>
+                  <button id="btn-clear" type="submit" class="btn btn-warning btn-sm">
+                    CLEAR
+                  </button>
+                </div>
+              </form>
+            </div>
+            </div>
+          <div class="col-sm-6 col-12 mt-2">
+            <div class="card">
+              <div class="card-header">
+                <div>
+                  <div class="input-group input-group-sm">
+                    <input type="text" id="txt-search" class="form-control float-right"
+                           placeholder="Enter ISBN, Name or Author to Search...">
+                    <div class="input-group-append">
+                      <button type="submit" class="btn btn-default">
+                        <i class="fas fa-search"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-body table-responsive p-0">
+                <table class="table table-hover text-nowrap">
+                  <tbody>
+                  <tr>
+                    <td><img class="book-preview"
+                             src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1392593226l/12545373.jpg"
+                             alt="preview"></td>
+                    <td>
+                      <div class="isbn">ISBN: 123456789</div>
+                      <div class="book-name text-bold">Java 8 Complete Reference</div>
+                      <div class="book-author">James Gosling</div>
+                    </td>
+                    <td>
+                      <i class="fas fa-trash"></i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><img class="book-preview"
+                             src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1392593226l/12545373.jpg"
+                             alt="preview"></td>
+                    <td>
+                      <div class="isbn">ISBN: 123456789</div>
+                      <div class="book-name text-bold">Java 8 Complete Reference</div>
+                      <div class="book-author">James Gosling</div>
+                    </td>
+                    <td>
+                      <i class="fas fa-trash"></i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><img class="book-preview"
+                             src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1392593226l/12545373.jpg"
+                             alt="preview"></td>
+                    <td>
+                      <div class="isbn">ISBN: 123456789</div>
+                      <div class="book-name text-bold">Java 8 Complete Reference</div>
+                      <div class="book-author">James Gosling</div>
+                    </td>
+                    <td>
+                      <i class="fas fa-trash"></i>
+                    </td>
+                  </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="card-footer clearfix">
+                <ul class="pagination pagination-sm m-0 justify-content-center">
+                  <li class="page-item"><a class="page-link" href="#">&laquo;</a></li>
+                  <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item"><a class="page-link" href="#">&raquo;</a></li>
+                </ul>
+              </div>
+
+            </div>
+
+          </div>
         </div>
         <!-- /.row -->
       </div><!--/. container-fluid -->
@@ -184,7 +309,5 @@
   </footer>
 </div>
 <!-- ./wrapper -->
-
-
 </body>
 </html>
