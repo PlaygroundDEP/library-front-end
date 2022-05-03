@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 17761
 91/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/LICENSE.txt1651112579895971957 0
 101/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/src/manage-books.html1651576251285458563 0
+=======
+17810
+91/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/LICENSE.txt1651112579895971957 0
+101/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/src/manage-books.html1651573887279698623 0
+>>>>>>> feat/4/manage-books-ui
 100/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/src/issue-books.html1651569696476219897 0
 97/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/src/settings.html1651569696476219897 0
 101/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/src/return-books.html1651569696476219897 0
@@ -10,6 +16,7 @@
 96/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/.env.development1651569696144217802 0
 97/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/.idea/modules.xml1651112488126577200 0
 94/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/.idea/misc.xml1651112488142576750 0
+<<<<<<< HEAD
 99/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/.idea/workspace.xml1651575863306165049 0
 96/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/.idea/.gitignore1651112493010439528 0
 93/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/.idea/vcs.xml1651113719220514500 0
@@ -38,6 +45,51 @@
 112/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/fa-brands-400.1730bea4.woff1651576160668672430 0
 111/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/fa-brands-400.5f453b15.svg1651576160880674260 0
 102/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/index.098472cb.js1651576160724672913 0
+=======
+99/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/.idea/workspace.xml1651573841875173682 0
+96/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/.idea/.gitignore1651112493010439528 0
+93/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/.idea/vcs.xml1651113719220514500 0
+85/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/.idea1651573841875173682 1
+102/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/index.9e00179c.js1651569696472219872 0
+106/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/index.34b2f162.js.map1651231205789730142 0
+103/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/index.95b89236.css1651225802265902912 0
+102/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/manage-books.html1651574134814499670 0
+103/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/index.e77a8f40.css1651225802261902998 0
+101/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/issue-books.html1651569696476219897 0
+102/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/index.ed32b795.js1651569696472219872 0
+112/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/fa-regular-400.462c25a0.svg1651231205557710810 0
+110/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/fa-solid-900.37e54b41.svg1651231205669720142 0
+110/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/fa-solid-900.aa4b1012.eot1651231205565711477 0
+103/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/index.8fbb3f4b.css1651231205481704477 0
+102/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/return-books.html1651569696476219897 0
+112/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/fa-regular-400.963ebff5.ttf1651225799237969209 0
+110/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/manage-books.c9de2a36.css1651572959111357165 0
+102/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/index.763d3c3a.js1651569696472219872 0
+102/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/index.3ec179a5.js1651225802265902912 0
+102/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/index.34b2f162.js1651231205777729141 0
+111/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/fa-brands-400.4226d323.eot1651231205729725142 0
+114/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/fa-regular-400.5bedcec6.woff21651225799033973747 0
+112/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/fa-solid-900.6002b354.woff21651225798977975001 0
+102/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/index.425f4cf3.js1651231205529708477 0
+106/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/index.cd6d870a.js.map1651569696472219872 0
+104/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/manage-members.html1651569696476219897 0
+106/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/index.ba1287d4.js.map1651569696472219872 0
+106/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/index.b4c250db.js.map1651225802313901884 0
+106/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/index.fb2ebd33.js.map1651569696472219872 0
+113/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/fa-brands-400.d928e68d.woff21651231205509706810 0
+103/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/index.62015f08.css1651231205481704477 0
+102/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/index.e54f2439.js1651569696472219872 0
+107/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/index.7fdcaa95.css.map1651231205793730475 0
+110/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/AdminLTELogo.d2299605.png1651231205601714477 0
+112/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/fa-regular-400.a55d9c35.svg1651225800945931488 0
+110/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/fa-solid-900.ae7a564d.ttf1651231205521707811 0
+106/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/index.a65db43e.js.map1651569696472219872 0
+106/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/index.ed32b795.js.map1651569696472219872 0
+112/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/fa-brands-400.1730bea4.woff1651231205557710810 0
+106/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/index.3b7c1f4c.js.map1651569696472219872 0
+111/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/fa-brands-400.5f453b15.svg1651231205793730475 0
+102/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/index.098472cb.js1651231205637717476 0
+>>>>>>> feat/4/manage-books-ui
 111/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/through2/README.md1651211207447544380 0
 113/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/through2/through2.js1651211207471542928 0
 124/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/iconv-lite/.idea/iconv-lite.iml1651211207451544138 0
@@ -936,7 +988,11 @@
 144/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/caniuse-lite/data/features/credential-management.js1651114153316011617 0
 145/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/caniuse-lite/data/features/keyboardevent-charcode.js1651114153520001985 0
 138/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/caniuse-lite/data/features/custom-elements.js1651114153460004817 0
+<<<<<<< HEAD
 87/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/src/css1651576251281458528 1
+=======
+87/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/src/css1651572862877710912 1
+>>>>>>> feat/4/manage-books-ui
 136/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/caniuse-lite/data/features/css-image-set.js1651114153392008028 0
 146/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/caniuse-lite/data/features/date-tolocaledatestring.js1651114153468004440 0
 129/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/jszip/lib/reader/Uint8ArrayReader.js1651211207939514624 0
@@ -1044,7 +1100,11 @@
 143/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/jquery-validation/dist/localization/messages_it.js1651211207839520672 0
 143/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/jquery-validation/dist/localization/messages_sl.js1651211207967512931 0
 146/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/jquery-validation/dist/localization/methods_fi.min.js1651211208135502793 0
+<<<<<<< HEAD
 92/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/src/css/page1651576251281458528 1
+=======
+92/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/src/css/page1651572958887353468 1
+>>>>>>> feat/4/manage-books-ui
 143/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/jquery-validation/dist/localization/messages_sk.js1651211207959513415 0
 143/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/jquery-validation/dist/localization/messages_ar.js1651211207707528656 0
 147/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/jquery-validation/dist/localization/messages_es.min.js1651211208075506411 0
@@ -1163,7 +1223,11 @@
 109/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/jszip/lib/stream1651211207919515834 1
 136/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/ion-rangeslider/css/ion.rangeSlider.min.css1651211207623533736 0
 112/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/ion-rangeslider/css1651211207603534946 1
+<<<<<<< HEAD
 94/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/src/index.html1651576251285458563 0
+=======
+94/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/src/index.html1651574122986367771 0
+>>>>>>> feat/4/manage-books-ui
 124/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/ion-rangeslider/less/_base.less1651211207727527446 0
 122/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/ion-rangeslider/less/irs.less1651211207743526478 0
 117/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/pdfmake/build/pdfmake.js1651211208195499175 0
@@ -2112,7 +2176,11 @@
 135/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/@popperjs/core/lib/utils/orderModifiers.js1651211208339490491 0
 140/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/caniuse-lite/data/features/css-rebeccapurple.js1651114153432006140 0
 143/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/@popperjs/core/lib/utils/validateModifiers.js.flow1651211208343490250 0
+<<<<<<< HEAD
 84/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist1651576251489460341 1
+=======
+84/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist1651574134870500294 1
+>>>>>>> feat/4/manage-books-ui
 129/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/@popperjs/core/lib/utils/debounce.js1651211208307492421 0
 150/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/@popperjs/core/lib/utils/getMainAxisFromPlacement.js.flow1651211208323491456 0
 141/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/@popperjs/core/lib/utils/mergePaddingObject.d.ts1651211208339490491 0
@@ -2127,6 +2195,10 @@
 131/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/@popperjs/core/lib/utils/uniqueBy.d.ts1651211208339490491 0
 123/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/flag-icon-css/flags/1x1/dm.svg1651211208259495316 0
 125/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/@popperjs/core/lib/utils/math.js1651211208331490974 0
+<<<<<<< HEAD
+=======
+106/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/index.9e00179c.js.map1651569696472219872 0
+>>>>>>> feat/4/manage-books-ui
 124/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/caniuse-lite/data/regions/DZ.js1651114153480003873 0
 129/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/@popperjs/core/lib/utils/format.d.ts1651211208311492180 0
 124/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/datatables.net-colreorder/types1651211207579536397 1
@@ -2253,7 +2325,11 @@
 133/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/lmdb/prebuilds/win32-x64/node.abi83.node1651114153615997451 0
 134/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/datatables.net-colreorder-bs4/License.txt1651211207435545106 0
 133/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/lmdb/prebuilds/win32-x64/node.abi88.node1651114153623997073 0
+<<<<<<< HEAD
 95/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/index.html1651576251481460272 0
+=======
+95/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/index.html1651574134814499670 0
+>>>>>>> feat/4/manage-books-ui
 109/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/lmdb/binding.gyp1651114153380008595 0
 112/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/lmdb/dict/dict2.txt1651114153635996507 0
 109/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/lmdb/external.js1651114153420006706 0
@@ -5406,6 +5482,10 @@
 135/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/@parcel/core/test/fixtures/invalid-engines1651114153464004629 1
 157/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/tempusdominus-bootstrap-4/node_modules/bootstrap/js/dist/util.js1651211208107504482 0
 158/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/tempusdominus-bootstrap-4/node_modules/bootstrap/js/dist/index.js1651211208035508823 0
+<<<<<<< HEAD
+=======
+106/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/index.763d3c3a.js.map1651569696472219872 0
+>>>>>>> feat/4/manage-books-ui
 164/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/tempusdominus-bootstrap-4/node_modules/bootstrap/js/dist/popover.js.map1651211208347490009 0
 121/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/resolve/test/node_path/y/bbb1651211208003510753 1
 141/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/summernote/.github/workflows/codeql-analysis.yml1651211208443484220 0
@@ -5999,6 +6079,10 @@
 124/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/caniuse-lite/data/regions/CK.js1651114153272013695 0
 123/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/flag-icon-css/flags/4x3/mw.svg1651211208539478431 0
 155/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/@fortawesome/fontawesome-free/svgs/brands/wordpress-simple.svg1651211208811462028 0
+<<<<<<< HEAD
+=======
+102/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/index.08f5330c.js1651569696468219846 0
+>>>>>>> feat/4/manage-books-ui
 117/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/jszip/lib/nodejsUtils.js1651211207899517044 0
 147/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/@fortawesome/fontawesome-free/svgs/brands/dashcube.svg1651211208647471918 0
 114/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/css-tree/lib/index.js1651114153304012184 0
@@ -8040,6 +8124,10 @@
 142/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/@fortawesome/fontawesome-free/svgs/solid/smog.svg1651211208771464441 0
 128/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/datatables.net-buttons/package.json1651211207419546074 0
 133/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/@parcel/events/test/ValueEmitter.test.js1651114153016025783 0
+<<<<<<< HEAD
+=======
+102/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/index.ba1287d4.js1651569696472219872 0
+>>>>>>> feat/4/manage-books-ui
 102/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/@mischnic1651114151668089435 1
 128/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/summernote/src/js/editing/Bullet.js1651211208659471195 0
 109/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/dfa/index.js.map1651211207619533978 0
@@ -8340,7 +8428,11 @@
 124/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/caniuse-lite/data/regions/KY.js1651114153528001607 0
 135/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/ext/node_modules/type/docs/safe-integer.md1651211208047508100 0
 141/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/admin-lte/node_modules/bootstrap/scss/_card.scss1651211208375488320 0
+<<<<<<< HEAD
 83/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/src1651576251285458563 1
+=======
+83/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/src1651574122986367771 1
+>>>>>>> feat/4/manage-books-ui
 112/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/term-size/readme.md1651114153016025783 0
 155/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/@fortawesome/fontawesome-free/svgs/brands/trade-federation.svg1651211208795462993 0
 124/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/caniuse-lite/data/regions/VG.js1651114153599998207 0
@@ -8553,6 +8645,10 @@
 151/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/@fortawesome/fontawesome-free/svgs/solid/grip-vertical.svg1651211208707468300 0
 139/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/@parcel/node-resolver-core/test/fixture/bar.js1651114152924030127 0
 137/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/admin-lte/plugins/fullcalendar/locales/ka.js1651211209475422070 0
+<<<<<<< HEAD
+=======
+102/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/index.3b7c1f4c.js1651569696472219872 0
+>>>>>>> feat/4/manage-books-ui
 123/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/flag-icon-css/flags/4x3/aq.svg1651211207959513415 0
 122/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/ext/node_modules/type/reg-exp1651211207927515350 1
 99/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/events1651231202313440250 1
@@ -8608,7 +8704,11 @@
 123/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/flag-icon-css/flags/4x3/id.svg1651211208443484220 0
 110/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/magic-string/dist1651211207719527930 1
 148/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/@fortawesome/fontawesome-free/svgs/brands/red-river.svg1651211208755465405 0
+<<<<<<< HEAD
 79/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end1651576160560671499 1
+=======
+79/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end1651569696476219897 1
+>>>>>>> feat/4/manage-books-ui
 139/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/@popperjs/core/dist/esm/dom-utils/getWindow.js1651211208363489044 0
 137/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/admin-lte/node_modules/bootstrap/scss/mixins1651211208447483979 1
 118/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/@parcel/namer-default/src1651114152892031638 1
@@ -8719,6 +8819,10 @@
 119/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/summernote/src/styles/lite1651211208679469988 1
 140/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/@parcel/watcher/src/watchman/WatchmanBackend.hh1651114153140019928 0
 126/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/summernote/dist/summernote.js.map1651211208411486149 0
+<<<<<<< HEAD
+=======
+106/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/index.e54f2439.js.map1651569696472219872 0
+>>>>>>> feat/4/manage-books-ui
 133/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/es5-ext/number/min-safe-integer/index.js1651211208327491215 0
 132/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/summernote/src/lang/summernote-sk-SK.js1651211208627473124 0
 141/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/admin-lte/plugins/flag-icon-css/flags/1x1/sy.svg1651211209575416057 0
@@ -10240,7 +10344,11 @@
 110/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/es6-iterator/test1651211207719527930 1
 165/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/tempusdominus-bootstrap-4/node_modules/bootstrap/scss/mixins/_caret.scss1651211208379488079 0
 143/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/@parcel/transformer-babel/src/remapAstLocations.js1651114153060023705 0
+<<<<<<< HEAD
 106/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/src/image/logo-library.jpg1651576251285458563 0
+=======
+106/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/src/image/logo-library.jpg1651573951316432399 0
+>>>>>>> feat/4/manage-books-ui
 140/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/caniuse-lite/data/features/keyboardevent-key.js1651114153524001796 0
 152/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/@fortawesome/fontawesome-free/svgs/solid/satellite-dish.svg1651211208763464923 0
 106/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/dfa/README.md1651211207631533252 0
@@ -10337,7 +10445,11 @@
 125/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/static-eval/node_modules/esprima1651211207543538574 1
 119/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/datatables.net-buttons-bs41651211207571536881 1
 163/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/admin-lte/plugins/bootstrap-switch/css/bootstrap3/bootstrap-switch.css1651211209627412931 0
+<<<<<<< HEAD
 110/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/logo-library.e99f2207.jpg1651576251281458528 0
+=======
+110/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/logo-library.e99f2207.jpg1651574134398495033 0
+>>>>>>> feat/4/manage-books-ui
 132/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/summernote/src/lang/summernote-it-IT.js1651211208623473365 0
 141/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/admin-lte/plugins/flag-icon-css/flags/1x1/ly.svg1651211209563416779 0
 142/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/@fortawesome/fontawesome-free/svgs/solid/city.svg1651211208611474089 0
@@ -11040,6 +11152,10 @@
 184/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/side-effects-false-glob/sub/a/index.js1651114153280013317 0
 110/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/flot/package.json1651211208011510270 0
 131/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/@parcel/packager-js/lib/DevPackager.js1651114152948028994 0
+<<<<<<< HEAD
+=======
+106/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/index.08f5330c.js.map1651569696472219872 0
+>>>>>>> feat/4/manage-books-ui
 117/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/@parcel/packager-svg/src1651114152892031638 1
 147/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/@babel/highlight/node_modules/supports-color/readme.md1651114152908030883 0
 145/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/@parcel/fs-search/fs-search.linux-arm-gnueabihf.node1651114153164018795 0
@@ -12076,7 +12192,11 @@
 112/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/moment/locale/kk.js1651211208379488079 0
 141/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/admin-lte/plugins/flag-icon-css/flags/1x1/ea.svg1651211209547417741 0
 150/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/@fortawesome/fontawesome-free/svgs/solid/step-forward.svg1651211208783463717 0
+<<<<<<< HEAD
 114/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/manage-books.ed2bb533.css.map1651576251281458528 0
+=======
+114/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/manage-books.ed2bb533.css.map1651574134814499670 0
+>>>>>>> feat/4/manage-books-ui
 141/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/admin-lte/plugins/flag-icon-css/flags/1x1/bt.svg1651211209543417981 0
 145/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/@fortawesome/fontawesome-free/svgs/solid/grimace.svg1651211208707468300 0
 141/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/admin-lte/plugins/flag-icon-css/flags/1x1/ls.svg1651211209563416779 0
@@ -12329,7 +12449,11 @@
 151/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/@fortawesome/fontawesome-free/svgs/solid/notes-medical.svg1651211208739466370 0
 142/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/@fortawesome/fontawesome-free/svgs/solid/flag.svg1651211208695469023 0
 126/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/bootstrap/grunt/change-version.js1651211208171500623 0
+<<<<<<< HEAD
 102/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/index.cd6d870a.js1651576160656672327 0
+=======
+102/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/index.cd6d870a.js1651569696472219872 0
+>>>>>>> feat/4/manage-books-ui
 124/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/resolve/test/resolver/multirepo1651211208203498693 1
 135/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/@foliojs-fork/restructure/src/LazyArray.js1651211207687529865 0
 153/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/@parcel/core/test/fixtures/config-plugin-not-found/.parcelrc1651114153056023894 0
@@ -12359,7 +12483,11 @@
 130/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/es6-map/test/is-native-implemented.js1651211207711528414 0
 112/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/moment/locale/uk.js1651211208623473365 0
 149/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/@fortawesome/fontawesome-free/svgs/solid/plane-slash.svg1651211208747465888 0
+<<<<<<< HEAD
 110/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/manage-books.ed2bb533.css1651576251281458528 0
+=======
+110/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/manage-books.ed2bb533.css1651574134814499670 0
+>>>>>>> feat/4/manage-books-ui
 154/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/bootstrap-switch/dist/css/bootstrap2/bootstrap-switch.min.css1651211207655531800 0
 123/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/flag-icon-css/flags/1x1/bd.svg1651211208039508582 0
 143/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/@fortawesome/fontawesome-free/svgs/brands/hive.svg1651211208711468059 0
@@ -13181,7 +13309,11 @@
 163/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/admin-lte/plugins/pace-progress/themes/red/pace-theme-center-radar.css1651211209515419665 0
 139/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/popper.js/src/methods/disableEventListeners.js1651211208119503758 0
 122/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/jsgrid/dist/i18n/jsgrid-ja.js1651211207835520914 0
+<<<<<<< HEAD
 102/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/index.a65db43e.js1651576160724672913 0
+=======
+102/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/index.a65db43e.js1651569696472219872 0
+>>>>>>> feat/4/manage-books-ui
 122/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/jsgrid/dist/i18n/jsgrid-ka.js1651211207839520672 0
 131/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/ext/node_modules/type/docs/iterable.md1651211208007510512 0
 125/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/jsgrid/dist/jsgrid-theme.min.css1651211207899517044 0
@@ -13909,6 +14041,10 @@
 122/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/es5-ext/array/#/e-index-of.js1651211207911516318 0
 158/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/escodegen/node_modules/source-map/lib/source-map/binary-search.js1651211207787523817 0
 149/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/escodegen/node_modules/source-map/lib/source-map/util.js1651211207839520672 0
+<<<<<<< HEAD
+=======
+102/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/index.fc5cdca8.js1651569696472219872 0
+>>>>>>> feat/4/manage-books-ui
 164/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/escodegen/node_modules/source-map/lib/source-map/source-map-consumer.js1651211207807522608 0
 151/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/escodegen/node_modules/source-map/lib/source-map/base64.js1651211207783524059 0
 106/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/is-regex/test1651211207523539784 1
@@ -13935,7 +14071,11 @@
 154/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/browser-resolve/node_modules/resolve/test/pathfilter/deep_ref1651211207779524301 1
 118/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/jquery/dist/jquery.min.js1651211208079506170 0
 123/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/jquery/dist/jquery.slim.min.js1651211208115503999 0
+<<<<<<< HEAD
 114/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/manage-books.c9de2a36.css.map1651576251481460272 0
+=======
+114/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/manage-books.c9de2a36.css.map1651572959111357165 0
+>>>>>>> feat/4/manage-books-ui
 112/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/jquery/package.json1651211208247496039 0
 103/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/jquery/src1651211208239496521 1
 114/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/node-releases/LICENSE1651114152808035605 0
@@ -14117,7 +14257,11 @@
 113/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/stable/stable.min.js1651114152896031449 0
 150/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/@fortawesome/fontawesome-free/svgs/solid/chess-knight.svg1651211208603474571 0
 109/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/stable/README.md1651114152840034094 0
+<<<<<<< HEAD
 109/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/src/css/page/manage-books.css1651576251281458528 0
+=======
+109/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/src/css/page/manage-books.css1651572958879353336 0
+>>>>>>> feat/4/manage-books-ui
 124/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/caniuse-lite/data/regions/YE.js1651114153611997640 0
 110/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/stable/index.d.ts1651114152816035227 0
 155/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/@fortawesome/fontawesome-free/svgs/regular/kiss-wink-heart.svg1651211208723467335 0
@@ -14892,6 +15036,10 @@
 146/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/admin-lte/plugins/summernote/lang/summernote-pt-BR.js1651211209379427842 0
 131/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/summernote/dist/summernote-lite.js.map1651211208343490250 0
 127/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/es5-ext/string/#/normalize/shim.js1651211208487481567 0
+<<<<<<< HEAD
+=======
+102/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/index.237e1610.js1651569696472219872 0
+>>>>>>> feat/4/manage-books-ui
 131/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/caniuse-lite/data/features/promises.js1651114153563999907 0
 174/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/package-browser-alias/foo.js1651114153188017661 0
 115/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/jquery/src/deferred.js1651211207855519705 0
@@ -15163,7 +15311,11 @@
 141/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/admin-lte/plugins/flag-icon-css/flags/1x1/dj.svg1651211209547417741 0
 130/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/admin-lte/plugins/moment/locale/bg.js1651211209403426399 0
 130/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/admin-lte/plugins/moment/locale/az.js1651211209403426399 0
+<<<<<<< HEAD
 98/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/settings.html1651576160640672189 0
+=======
+98/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/settings.html1651569696476219897 0
+>>>>>>> feat/4/manage-books-ui
 158/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/tempusdominus-bootstrap-4/node_modules/bootstrap/js/src/button.js1651211207971512689 0
 130/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/admin-lte/plugins/moment/locale/af.js1651211209403426399 0
 129/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/popper.js/src/utils/includeScroll.js1651211208211498210 0
@@ -15200,6 +15352,10 @@
 123/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/codemirror/theme/solarized.css1651211208047508100 0
 121/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/es5-ext/number/to-integer.js1651211208491481325 0
 130/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/admin-lte/plugins/moment/locale/nb.js1651211209411425918 0
+<<<<<<< HEAD
+=======
+102/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/index.fb2ebd33.js1651569696472219872 0
+>>>>>>> feat/4/manage-books-ui
 128/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/es5-ext/string/#/@@iterator/shim.js1651211208483481808 0
 128/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/htmlnano/lib/modules/mergeStyles.js1651114153060023705 0
 115/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/moment/locale/en-sg.js1651211208207498451 0
@@ -15796,6 +15952,10 @@
 140/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/admin-lte/plugins/codemirror/theme/ambiance.css1651211209691409082 0
 126/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/select2/src/js/select2/i18n/fi.js1651211208055507617 0
 128/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/datatables.net-responsive/Readme.md1651211207555537848 0
+<<<<<<< HEAD
+=======
+106/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/index.237e1610.js.map1651569696472219872 0
+>>>>>>> feat/4/manage-books-ui
 151/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/@popperjs/core/dist/esm/dom-utils/getBoundingClientRect.js1651211208351489768 0
 150/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/@fortawesome/fontawesome-free/svgs/brands/google-plus.svg1651211208703468541 0
 138/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/filterizr/dist/types/interfaces/Position.d.ts1651211208515479878 0
@@ -16938,6 +17098,10 @@
 118/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/@types/node/punycode.d.ts1651227518588025792 0
 167/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/admin-lte/plugins/pace-progress/themes/red/pace-theme-corner-indicator.css1651211209515419665 0
 137/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/admin-lte/plugins/daterangepicker/index.html1651211209423425196 0
+<<<<<<< HEAD
+=======
+106/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/dist/index.fc5cdca8.js.map1651569696472219872 0
+>>>>>>> feat/4/manage-books-ui
 138/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/admin-lte/plugins/daterangepicker/example/amd1651211209419425437 1
 125/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/static-module/test/fs/robot.html1651211207539538816 0
 134/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/admin-lte/plugins/daterangepicker/website1651211209423425196 1
@@ -17054,7 +17218,11 @@
 133/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/bootstrap/less/responsive-utilities.less1651211208307492421 0
 141/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/admin-lte/plugins/flag-icon-css/flags/4x3/lu.svg1651211209599414614 0
 144/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/admin-lte/node_modules/bootstrap/scss/_buttons.scss1651211208375488320 0
+<<<<<<< HEAD
 89/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/src/image1651576251285458563 1
+=======
+89/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/src/image1651573993108907522 1
+>>>>>>> feat/4/manage-books-ui
 159/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/bootstrap-colorpicker/node_modules/bootstrap/scss/_breadcrumb.scss1651211208571476501 0
 167/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/admin-lte/plugins/bootstrap-switch/css/bootstrap3/bootstrap-switch.min.css1651211209627412931 0
 152/home/thakshila/DEP/Phase2/Projects/library-management-system/library-front-end/node_modules/admin-lte/node_modules/bootstrap/scss/bootstrap-reboot.scss1651211208451483737 0
