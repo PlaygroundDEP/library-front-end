@@ -1,0 +1,1 @@
+{"mappings":"AAAA,MAAMA,QAAU,UAAUC,QAAQC,IAAIC,oBAEtCC,QAAQC,IAAIJ,QAAQC,IAAIF","sources":["src/ts/page/dashboard.ts"],"sourcesContent":["const API_URL = `http://${process.env.HOST}:8080/library`;\n\nconsole.log(process.env.API_URL);"],"names":["API_URL","process","env","HOST","console","log"],"version":3,"file":"index.3b7c1f4c.js.map"}

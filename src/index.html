@@ -25,13 +25,13 @@
   <script type="module" defer src="/node_modules/admin-lte/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
   <!-- AdminLTE App -->
   <script type="module" defer src="/node_modules/admin-lte/dist/js/adminlte.js"></script>
-  <script src="ts/main.ts"></script>
+
+  <script defer src="ts/main.ts"></script>
+  <script type="module" defer src="ts/page/dashboard.ts"></script>
+
 </head>
 <body class="hold-transition dark-mode sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
 <div class="wrapper">
-
-
-
   <!-- Navbar -->
   <nav class="main-header navbar navbar-expand navbar-dark">
     <!-- Left navbar links -->
@@ -160,9 +160,9 @@
             <div class="info-box">
               <span class="info-box-icon bg-info elevation-1"><i class="fas fa-book-open"></i></span>
               <div class="info-box-content">
-                <span class="info-box-text">Total Books</span>
-                <span class="info-box-number">
-                  10
+                <span  class="info-box-text">Total Books</span>
+                <span id="spn-total-books" class="info-box-number">
+                  0
                 </span>
               </div>
               <!-- /.info-box-content -->
@@ -176,7 +176,7 @@
 
               <div class="info-box-content">
                 <span class="info-box-text">Total Members</span>
-                <span class="info-box-number">41,410</span>
+                <span  id="spn-total-members" class="info-box-number">0</span>
               </div>
               <!-- /.info-box-content -->
             </div>
@@ -193,7 +193,7 @@
 
               <div class="info-box-content">
                 <span class="info-box-text">Issued Today</span>
-                <span class="info-box-number">760</span>
+                <span id="spn-total-issues" class="info-box-number">0</span>
               </div>
               <!-- /.info-box-content -->
             </div>
@@ -206,7 +206,7 @@
 
               <div class="info-box-content">
                 <span class="info-box-text">Returned Today</span>
-                <span class="info-box-number">2,000</span>
+                <span  id="spn-total-returns" class="info-box-number">0</span>
               </div>
               <!-- /.info-box-content -->
             </div>
