@@ -1,1 +1,0 @@
-{"mappings":"AAEAA,QAAQC,IAAIC,QAAQC,IAAIC","sources":["src/ts/page/dashboard.ts"],"sourcesContent":["//const API_URL = `http://${process.env.HOST}:8080/library`;\n\nconsole.log(process.env.API_URL);"],"names":["console","log","process","env","API_URL"],"version":3,"file":"index.fc5cdca8.js.map"}
