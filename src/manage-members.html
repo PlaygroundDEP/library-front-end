@@ -25,7 +25,9 @@
   <script type="module" defer src="/node_modules/admin-lte/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
   <!-- AdminLTE App -->
   <script type="module" defer src="/node_modules/admin-lte/dist/js/adminlte.js"></script>
+
   <script defer src="ts/main.ts"></script>
+  <script defer src="ts/page/manage-members.ts"></script>
 
 </head>
 <body class="hold-transition dark-mode sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
@@ -153,18 +155,124 @@
     <!-- /.content-header -->
 
     <!-- Main content -->
-    <section class="content">
+    <!--<section class="content">
       <div class="container-fluid">
         <div class="row">
         </div>
-        <!-- /.row -->
-
-        <!-- Main row -->
+        &lt;!&ndash; /.row &ndash;&gt;
+        &lt;!&ndash; Main row &ndash;&gt;
         <div class="row">
+          <div class="col-md-6 mt-2">
+
+
+            <div class="card card-primary">
+              <div class="card-header">
+                <h3 class="card-title">Book Details</h3>
+                <button id="btn-new-book" class="btn btn-success btn-sm float-right">NEW BOOK +</button>
+              </div>
+
+
+              <form id="frm-book">
+                <div class="card-body">
+                  <div class="form-group">
+                    <label for="txt-isbn">ISBN</label>
+                    <input type="text" class="form-control" id="txt-isbn" placeholder="Enter ISBN">
+                  </div>
+                  <div class="form-group">
+                    <label for="txt-name">Name</label>
+                    <input type="text" class="form-control" id="txt-name" placeholder="Enter Book's Name">
+                  </div>
+                  <div class="form-group">
+                    <label for="txt-author">Author</label>
+                    <input type="text" class="form-control" id="txt-author" placeholder="Enter Author's Name">
+                  </div>
+                </div>
+
+                <div class="card-footer">
+                  <button id="btn-save" type="submit" class="btn btn-primary btn-sm">
+                    SAVE
+                  </button>
+                  <button id="btn-clear" type="submit" class="btn btn-warning btn-sm">
+                    CLEAR
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="col-sm-6 col-12 mt-2">
+            <div class="card">
+              <div class="card-header">
+                <div>
+                  <div class="input-group input-group-sm">
+                    <input type="text" id="txt-search" class="form-control float-right"
+                           placeholder="Enter ISBN, Name or Author to Search...">
+                    <div class="input-group-append">
+                      <button type="submit" class="btn btn-default">
+                        <i class="fas fa-search"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-body table-responsive p-0">
+                <table class="table table-hover text-nowrap">
+                  <tbody>
+                  <tr>
+                    <td><img class="book-preview"
+                             src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1392593226l/12545373.jpg"
+                             alt="preview"></td>
+                    <td>
+                      <div class="isbn">ISBN: 123456789</div>
+                      <div class="book-name text-bold">Java 8 Complete Reference</div>
+                      <div class="book-author">James Gosling</div>
+                    </td>
+                    <td>
+                      <i class="fas fa-trash"></i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><img class="book-preview"
+                             src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1392593226l/12545373.jpg"
+                             alt="preview"></td>
+                    <td>
+                      <div class="isbn">ISBN: 123456789</div>
+                      <div class="book-name text-bold">Java 8 Complete Reference</div>
+                      <div class="book-author">James Gosling</div>
+                    </td>
+                    <td>
+                      <i class="fas fa-trash"></i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><img class="book-preview"
+                             src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1392593226l/12545373.jpg"
+                             alt="preview"></td>
+                    <td>
+                      <div class="isbn">ISBN: 123456789</div>
+                      <div class="book-name text-bold">Java 8 Complete Reference</div>
+                      <div class="book-author">James Gosling</div>
+                    </td>
+                    <td>
+                      <i class="fas fa-trash"></i>
+                    </td>
+                  </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="card-footer clearfix">
+                <ul id="pagination" class="pagination pagination-sm m-0 justify-content-center">
+
+                </ul>
+              </div>
+
+            </div>
+
+          </div>
         </div>
-        <!-- /.row -->
-      </div><!--/. container-fluid -->
-    </section>
+        &lt;!&ndash; /.row &ndash;&gt;
+      </div>&lt;!&ndash;/. container-fluid &ndash;&gt;
+    </section>-->
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
