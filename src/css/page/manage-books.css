@@ -9,6 +9,7 @@
     border-radius: 5px;
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 #thumbnail-wrapper{
@@ -63,5 +64,5 @@ tr.selected{
 }
 
 .book-preview.no-image{
-    background-image: url("../../image/no-image.jpg");
+    background-image: url("../../image/no-image.jpg") !important;
 }

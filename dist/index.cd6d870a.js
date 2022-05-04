@@ -42,5 +42,28 @@ function navItemListener() {
             window.location.replace('settings.html');
     }
 }
+function httpRequest(httpMethod, url, headers = [], body = null) {
+    return new Promise((resolve, reject)=>{
+        const http = new XMLHttpRequest();
+        http.onreadystatechange = ()=>{
+            if (http.readyState === http.DONE) {
+                if (http.status >= 200 && http.status <= 299) resolve({
+                    status: +http.status,
+                    body: http.responseText,
+                    http: http
+                });
+                else reject({
+                    status: +http.status,
+                    body: http.responseText,
+                    http: http
+                });
+            }
+        };
+        http.open(httpMethod, url, true);
+        headers.forEach((header)=>http.setRequestHeader(header.name, header.value)
+        );
+        http.send(body);
+    });
+}
 
 //# sourceMappingURL=index.cd6d870a.js.map
