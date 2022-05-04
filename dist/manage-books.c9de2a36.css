@@ -5,6 +5,8 @@
 #thumbnail {
   width: 150px;
   height: 150px;
+  background-repeat: no-repeat;
+  background-size: contain;
   border: 1px solid #6c757d;
   border-radius: 5px;
 }
@@ -44,6 +46,26 @@ tbody tr td:last-child {
   text-align: center;
   vertical-align: middle;
   font-size: 1.3rem;
+}
+
+tbody tr td:last-child:hover {
+  color: red;
+}
+
+tr.selected {
+  background-color: #2c3e50 !important;
+}
+
+.book-preview {
+  width: 60px;
+  height: 80px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.book-preview.no-image {
+  background-image: url("no-image.3cb4e2dc.jpg");
 }
 
 /*# sourceMappingURL=manage-books.c9de2a36.css.map */
