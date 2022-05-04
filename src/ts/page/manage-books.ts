@@ -1,3 +1,5 @@
+import {send} from "process";
+
 const btnNewBook = document.querySelector<HTMLButtonElement>('#btn-new-book')!;
 const frmBook = document.querySelector<HTMLFormElement>('#frm-book')!;
 const txtISBN = document.querySelector<HTMLInputElement>('#txt-isbn')!;
@@ -11,9 +13,10 @@ const paginationElm = document.querySelector<HTMLUListElement>('#pagination')!;
 const tblBooks = document.querySelector<HTMLTableElement>("table")!;
 const btnSave = document.querySelector<HTMLButtonElement>("#btn-save")!;
 const btnClear = document.querySelector<HTMLButtonElement>('#btn-clear')!;
+const txtSearch = document.querySelector<HTMLInputElement>('#txt-search')!;
 let blobURL: null | string = null;
 
-frmBook.addEventListener('reset', ()=> {
+frmBook.addEventListener('reset', () => {
     const inputElms = [txtISBN, txtName, txtAuthor];
     inputElms.forEach(elm => elm.classList.remove('is-valid', 'is-invalid'));
     inputElms[0].focus();
@@ -25,7 +28,7 @@ frmBook.addEventListener('reset', ()=> {
 
 frmBook.addEventListener('submit', (e) => {
     e.preventDefault();
-    if (btnSave.innerText === 'EDIT'){
+    if (btnSave.innerText === 'EDIT') {
         setEnableForm();
         btnSave.innerText = 'SAVE';
         btnRemove.disabled = !divThumbnail.style.backgroundImage;
@@ -183,6 +186,7 @@ paginationElm.addEventListener('click', (e) => {
             initPagination(++activePage);
         } else {
             initPagination(+elm.innerText);
+            loadBooks(txtSearch.value, activePage);
         }
         e.stopPropagation();
     }
@@ -203,12 +207,12 @@ tblBooks.querySelector("tbody")!.addEventListener('click', (e) => {
             title: 'Confirm?',
             text: `Are you sure to delete the ${isbn}?`,
             icon: 'question',
-            confirmButtonText : 'Yes',
+            confirmButtonText: 'Yes',
             denyButtonText: 'No',
             showDenyButton: true
-        })as Promise<any>;
+        }) as Promise<any>;
 
-        promise.then((resolve)=>{
+        promise.then((resolve) => {
             if (resolve.isConfirmed) {
                 frmBook.reset();
                 row.remove();
@@ -221,12 +225,12 @@ tblBooks.querySelector("tbody")!.addEventListener('click', (e) => {
 
 declare const Swal: any;
 
-tblBooks.querySelector("tbody")!.addEventListener('click', (e)=>{
+tblBooks.querySelector("tbody")!.addEventListener('click', (e) => {
     const row = (e.target as HTMLElement).closest<HTMLTableRowElement>('tr')!;
-    tblBooks.querySelectorAll("tr").forEach(elm=>elm.classList.remove('selected'));
+    tblBooks.querySelectorAll("tr").forEach(elm => elm.classList.remove('selected'));
     row.classList.add('selected');
 
-    const isbn = row.querySelector<HTMLDivElement>(".isbn")!.innerText.replace('ISBN:','');
+    const isbn = row.querySelector<HTMLDivElement>(".isbn")!.innerText.replace('ISBN:', '');
     const name = row.querySelector<HTMLDivElement>(".book-name")!.innerText;
     const author = row.querySelector<HTMLDivElement>(".book-author")!.innerText;
     const bookPreview = row.querySelector<HTMLDivElement>('.book-preview')!;
@@ -245,3 +249,58 @@ tblBooks.querySelector("tbody")!.addEventListener('click', (e)=>{
     btnSave.innerText = 'EDIT';
 
 });
+
+/*const myPromise = sendHTTPRequest("GET", 'http://localhost:8080/library/v2/books');
+myPromise.then((data)=>{
+    console.log('Success', data.status, data.body);
+});
+myPromise.catch((err)=>{
+    console.log('Catch an error', err.status, err.body);
+});*/
+
+const BOOKS_API = `${process.env.API_URL}/v2/books`;
+
+loadBooks();
+
+
+txtSearch.addEventListener('input',()=>loadBooks(txtSearch.value));
+
+function loadBooks(query:string='', page:number=1) {
+    httpRequest('GET', `${BOOKS_API}?q=${query}&page=${page}&size=${pageSize}`)
+        .then((data)=>{
+            /*Let's clear the table*/
+            tblBooks.querySelectorAll("tr").forEach(row=>row.remove());
+            const books: Array<{
+                author: string,
+                availability: boolean,
+                isbn: string,
+                name: string,
+                preview: string
+            }> = JSON.parse(data.body);
+
+            booksCount = +data.http.getResponseHeader('X-Count')!;
+            initPagination(activePage);
+
+            books.forEach(book => {
+                const rowElm = document.createElement('tr');
+
+                rowElm.innerHTML = `<td><div class="book-preview ${book.preview === null ? 'no-image' : ''}" style="background-image: url(${book.preview})"></div></td>
+                                    <td>
+                                        <div class="isbn">ISBN: ${book.isbn}</div>
+                                        <div class="book-name text-bold">${book.name}</div>
+                                        <div class="book-author">${book.author}</div>
+                                    </td>
+                                    <td class="trash">
+                                        <i class="fas fa-trash"></i>
+                                    </td>`;
+
+                tblBooks.querySelector("tbody")!.append(rowElm);
+            });
+
+        }). catch((err)=>{
+
+    });
+}
+
+
+

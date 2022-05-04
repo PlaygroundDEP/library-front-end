@@ -206,6 +206,12 @@ tblBooks.querySelector("tbody").addEventListener('click', (e)=>{
     btnSave.disabled = false;
     btnClear.disabled = false;
     btnSave.innerText = 'EDIT';
+}); /*const myPromise = sendHTTPRequest("GET", 'http://localhost:8080/library/v2/books');
+myPromise.then((data)=>{
+    console.log('Success', data.status, data.body);
 });
+myPromise.catch((err)=>{
+    console.log('Catch an error', err.status, err.body);
+});*/ 
 
 //# sourceMappingURL=manage-books.f4d32de6.js.map
